@@ -1,14 +1,9 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "account": [
+    { "userId": 1, "accountId": 101, "accountType": "checking", "balance": "$1200.00", "currency": "USD" },
+    { "userId": 1, "accountId": 102, "accountType": "savings", "balance": "$50.00", "currency": "USD" },
+    { "userId": 2, "accountId": 101, "accountType": "checking", "balance": "$150.00", "currency": "USD" },
+    { "userId": 2, "accountId": 102, "accountType": "savings", "balance": "$45.00", "currency": "USD" },
+    { "userId": 3, "accountId": 101, "accountType": "checking", "balance": "$32,000.00", "currency": "USD" },
+  ]
 }
